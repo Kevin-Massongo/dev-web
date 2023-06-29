@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+
+/* SECTION BANNERE */
+
+
+
+.bannere .container{
+    background-image: url(./figma/fond.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    filter: brightness(0.6);
+
+}
+
+.bannere h1{
+    position: absolute;
+    font-weight: bold;
+    margin: -35rem 0rem 0 32rem ;
+    color: white;
+    font-size: 4rem;
+}
+
+.bannere p{
+    position: absolute;
+    font-size: 1.3rem;
+    max-width: 30%;
+    margin: -28rem 0rem 0 35rem ;
+    color: white;
+    
+}
+
+
+/* SECTION FORMATION */
+
+
+.formation{
+    padding: 100px;
+}
+
+.formation .container{
+    text-align: center;
+}
+
+.formation .container h2{
+    font-size: 2rem;
+}
+
+.formation .box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.formation .box .imbox{
+    margin: 0 20px;
+}
+
+
+
+/* SECTION PROJECT */
+
+.project{
+    background-color: #D39393;
+    height: 200vh;
+    padding: 100px;
+}
+
+
+.project .container h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.box{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:  
+    "dasmoto one one"
+    "two two tea"
+    "color three three";
+    align-content: space-between;
+    width: 100%;
+    grid-gap: 20px;
+}
+
+.dasmoto{
+    grid-area: dasmoto;
+    margin-left: auto;
+}
+
+.project_one{
+    grid-area: one;
+}
+
+.tea{
+    grid-area: tea;
+}
+
+.project_two{
+    grid-area: two;
+    margin-left: auto;
+}
+
+.color{
+    grid-area: color;
+    margin-left: auto;
+}
+
+.project_three{
+    grid-area: three;
+}
+
+.image{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.project h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.project p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project .button{
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* SECTION MOMENT */
+
+.moment{
+    padding: 100px;
+}
+
+.moment .container{
+    text-align: center;
+}
+
+.moment .container h2{
+    font-size: 2rem;
+}
+
+.moment .box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.moment .box .imbox{
+    margin: 20px;
+}
+
+
+/* SELECTION COACH */
+
+
+.coach{
+    padding: 100px;
+    background-color: #D39393;
+}
+
+.coach .container{
+    text-align: center;
+}
+
+.coach .container h2{
+    font-size: 2rem;
+}
+
+.coach .box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.coach .box .imbox{
+    margin: 0px 50px;
+}
+
+.coach .box .imbox img{
+    border-radius: 50%;
+}
+
+.coach .box .imbox h3{
+    text-align: center;
+}
+
+
+/* SELECTION EQUIPE */
+
+
+.equipe{
+    padding: 100px 0  ;
+}
+
+.equipe .container{
+    text-align: center;
+}
+
+.equipe .container h2{
+    font-size: 2rem;
+}
+
+.equipe .box .imbox img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+
+/* SELECTION COPYRIGHT */
+
+.copyright{
+    padding: 100px;
+    background-color: #D39393;
+}
